@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+# test: ../test/images
+
+nc: 24
+names: [CIV_Plane,MIL_Plane, CIV_Pax, MIL_Pax, Fire, Smoke, Building, Destroyed_Building , MIL_Ship, CIV_Ship, Explosion, MIL_HMMWV, CIV_Veh, MIL_Veh, MIL_MBT, MIL_HELO, CIV_HELO, Drone_FW, MIL_EW_RDR, MIL_APC, MIL_SPG , MIL_TBM, MIL_SAM_TEL, MIL_IFV ]
+
+roboflow:
+  workspace: ak-rfpt5
+  project: fire-and-smoke-detection-idbvj
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ak-rfpt5/fire-and-smoke-detection-idbvj/dataset/5
